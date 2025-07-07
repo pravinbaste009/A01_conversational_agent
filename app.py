@@ -18,3 +18,7 @@ from langchain.agents import AgentExecutor
 import panel as pn
 import param
 from langchain_community.chat_models import ChatOpenAI
+
+_ = load_dotenv(find_dotenv())
+
+openai.api_key = os.getenv("OPENAI_API_KEY")

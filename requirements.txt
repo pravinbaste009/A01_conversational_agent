@@ -1,0 +1,7 @@
+panel
+param
+openai
+langchain
+wikipedia
+python-dotenv
+requests

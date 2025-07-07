@@ -5,3 +5,4 @@ langchain
 wikipedia
 python-dotenv
 requests
+langchain-community
